@@ -14,6 +14,13 @@
 		70056F471A06B8CB00832A23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70056F461A06B8CB00832A23 /* Images.xcassets */; };
 		70056F4A1A06B8CB00832A23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70056F481A06B8CB00832A23 /* LaunchScreen.xib */; };
 		70056F561A06B8CB00832A23 /* OptionsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70056F551A06B8CB00832A23 /* OptionsTestTests.m */; };
+		70056F601A06B9A000832A23 /* hanko.png in Resources */ = {isa = PBXBuildFile; fileRef = 70056F5F1A06B9A000832A23 /* hanko.png */; };
+		70056F631A06E44500832A23 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70056F621A06E44500832A23 /* OptionsViewController.m */; };
+		70056F661A06E4E200832A23 /* BaseTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 70056F651A06E4E200832A23 /* BaseTransitionAnimator.m */; };
+		70056F681A06E59800832A23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70056F671A06E59800832A23 /* UIKit.framework */; };
+		70056F6A1A06E5A800832A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70056F691A06E5A800832A23 /* Foundation.framework */; };
+		70056F6C1A06E5B300832A23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70056F6B1A06E5B300832A23 /* CoreGraphics.framework */; };
+		70056F701A06E88F00832A23 /* OptionsTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 70056F6F1A06E88F00832A23 /* OptionsTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		70056F4F1A06B8CB00832A23 /* OptionsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptionsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70056F541A06B8CB00832A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70056F551A06B8CB00832A23 /* OptionsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionsTestTests.m; sourceTree = "<group>"; };
+		70056F5F1A06B9A000832A23 /* hanko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hanko.png; sourceTree = "<group>"; };
+		70056F611A06E44500832A23 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		70056F621A06E44500832A23 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		70056F641A06E4E200832A23 /* BaseTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTransitionAnimator.h; sourceTree = "<group>"; };
+		70056F651A06E4E200832A23 /* BaseTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTransitionAnimator.m; sourceTree = "<group>"; };
+		70056F671A06E59800832A23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70056F691A06E5A800832A23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70056F6B1A06E5B300832A23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70056F6E1A06E88F00832A23 /* OptionsTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTransitionAnimator.h; sourceTree = "<group>"; };
+		70056F6F1A06E88F00832A23 /* OptionsTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTransitionAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70056F6C1A06E5B300832A23 /* CoreGraphics.framework in Frameworks */,
+				70056F6A1A06E5A800832A23 /* Foundation.framework in Frameworks */,
+				70056F681A06E59800832A23 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +86,8 @@
 				70056F381A06B8CB00832A23 /* OptionsTest */,
 				70056F521A06B8CB00832A23 /* OptionsTestTests */,
 				70056F371A06B8CB00832A23 /* Products */,
+				70056F5F1A06B9A000832A23 /* hanko.png */,
+				70056F6D1A06E5C600832A23 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +107,12 @@
 				70056F3E1A06B8CB00832A23 /* AppDelegate.m */,
 				70056F401A06B8CB00832A23 /* ViewController.h */,
 				70056F411A06B8CB00832A23 /* ViewController.m */,
+				70056F611A06E44500832A23 /* OptionsViewController.h */,
+				70056F621A06E44500832A23 /* OptionsViewController.m */,
+				70056F641A06E4E200832A23 /* BaseTransitionAnimator.h */,
+				70056F651A06E4E200832A23 /* BaseTransitionAnimator.m */,
+				70056F6E1A06E88F00832A23 /* OptionsTransitionAnimator.h */,
+				70056F6F1A06E88F00832A23 /* OptionsTransitionAnimator.m */,
 				70056F431A06B8CB00832A23 /* Main.storyboard */,
 				70056F461A06B8CB00832A23 /* Images.xcassets */,
 				70056F481A06B8CB00832A23 /* LaunchScreen.xib */,
@@ -117,6 +145,16 @@
 				70056F541A06B8CB00832A23 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70056F6D1A06E5C600832A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70056F671A06E59800832A23 /* UIKit.framework */,
+				70056F691A06E5A800832A23 /* Foundation.framework */,
+				70056F6B1A06E5B300832A23 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +206,7 @@
 				TargetAttributes = {
 					70056F351A06B8CB00832A23 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = EG3WJ73D78;
 					};
 					70056F4E1A06B8CB00832A23 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70056F451A06B8CB00832A23 /* Main.storyboard in Resources */,
+				70056F601A06B9A000832A23 /* hanko.png in Resources */,
 				70056F4A1A06B8CB00832A23 /* LaunchScreen.xib in Resources */,
 				70056F471A06B8CB00832A23 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				70056F421A06B8CB00832A23 /* ViewController.m in Sources */,
+				70056F631A06E44500832A23 /* OptionsViewController.m in Sources */,
 				70056F3F1A06B8CB00832A23 /* AppDelegate.m in Sources */,
 				70056F3C1A06B8CB00832A23 /* main.m in Sources */,
+				70056F701A06E88F00832A23 /* OptionsTransitionAnimator.m in Sources */,
+				70056F661A06E4E200832A23 /* BaseTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +386,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OptionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +398,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OptionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +459,7 @@
 				70056F5B1A06B8CB00832A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70056F5C1A06B8CB00832A23 /* Build configuration list for PBXNativeTarget "OptionsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +468,7 @@
 				70056F5E1A06B8CB00832A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

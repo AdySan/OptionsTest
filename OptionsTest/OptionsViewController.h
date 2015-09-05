@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OptionsViewController.h
 //  OptionsTest
 //
 //  Created by Aditya Tannu on 11/2/14.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface OptionsViewController : UIViewController
 
 @end
-
